@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="250.0" prefWidth="300.0" spacing="15.0" stylesheets="@mikrotikstyle.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mikrotiksetup.FXMLOptionsController">
+   <children>
+      <Button fx:id="jBResetovat" mnemonicParsing="false" onAction="#resetovatZarizeni" prefHeight="40.0" prefWidth="200.0" styleClass="custom-button" stylesheets="@mikrotikstyle.css" text="Resetovat" textAlignment="CENTER" />
+      <Button fx:id="jBNastavitPristup" mnemonicParsing="false" onAction="#nastavitPristup" prefHeight="40.0" prefWidth="200.0" styleClass="custom-button" stylesheets="@mikrotikstyle.css" text="Nastavit přístup AP" textAlignment="CENTER" />
+      <Button fx:id="jBZrusitPristup" mnemonicParsing="false" onAction="#zrusitPristup" prefHeight="40.0" prefWidth="200.0" styleClass="custom-button" stylesheets="@mikrotikstyle.css" text="Zrušit přístup AP" textAlignment="CENTER" />
+   </children>
+</VBox>
